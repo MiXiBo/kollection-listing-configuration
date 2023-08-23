@@ -1,0 +1,10 @@
+{
+  "owner_pk": "",
+  "contract_address": "",
+  "royalties": [
+    {
+      "address":"",
+      "amount":6000
+    }
+  ]
+}

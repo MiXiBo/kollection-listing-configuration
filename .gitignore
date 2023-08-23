@@ -1,0 +1,14 @@
+# Node modules
+/node_modules/*
+
+# Environment variables
+.env*
+config.json
+
+# Innecesary files
+yarn.lock
+package-lock.json
+test.js
+clean.bash
+
+docker-postgres-store
