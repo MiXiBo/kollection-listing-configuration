@@ -1,6 +1,18 @@
 {
   "owner_pk": "",
-  "contract_address": "",
+  "nft_testnet": "",
+  "nft_mainnet": "",
+  "koin_testnet": "1FaSvLjQJsCJKq5ybmGsMMQs8RQYyVv8ju",
+  "koin_mainnet": "15DJN4a8SgrbGhhGksSBASiSYjGnMU8dGL",
+  "contract_market_testnet": "14yCsrikBaL9PUUA1GMZcW553ndBeRPNFW",
+  "contract_market_mainnet": "16tsFkc5RyuwQmXxVABzHHwS513Nu2B9S3",
+  "check_approve": true,
+  "set_sale": false,
+  "cancel_order": false,
+  "set_royalities": false,
+  "mainnet": false,
+  "items": <int>,
+
   "royalties": [
     {
       "address":"",
