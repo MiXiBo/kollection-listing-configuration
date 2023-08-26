@@ -12,7 +12,8 @@
   "set_royalities": false,
   "mainnet": false,
   "items": <int>,
-
+  "token_price": "50000000000",
+  "time_expire": "0",
   "royalties": [
     {
       "address":"",

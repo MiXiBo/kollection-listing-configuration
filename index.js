@@ -11,6 +11,8 @@ const SET_SALE = config.set_sale;
 const CANCEL_ORDER = config.cancel_order;
 const SET_ROYALITIES = config.set_royalities
 const item_count = config.items;
+const token_price = config.token_price;
+const time_expire = config.time_expire;
 
 let contract_market = config.contract_market_testnet;
 let contract_address = config.nft_testnet;
@@ -120,8 +122,8 @@ async function start() {
                   collection: contract_address,
                   tokenSell: koin,
                   tokenId: hex,
-                  tokenPrice: "50000000000",
-                  timeExpire: "1693145159000"
+                  tokenPrice: token_price,
+                  timeExpire: time_expire
                 }, {
                   rcLimit: 125915790,
                   sendTransaction: true
